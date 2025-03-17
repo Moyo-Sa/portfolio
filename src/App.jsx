@@ -1,8 +1,15 @@
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import { Home } from "./pages";
-import { About, ContactMe, Experience, Project, Education } from "./components";
+import { Home, Thanks } from "./pages";
+import {
+  About,
+  ContactMe,
+  Experience,
+  Project,
+  Education,
+  Resume,
+} from "./components";
 
 function App() {
   return (
@@ -16,6 +23,8 @@ function App() {
             <Route path="/experience" element={<Experience />} />
             <Route path="/projects" element={<Project />} />
             <Route path="/education" element={<Education />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/thank-you" element={<Thanks />} />
           </Routes>
         </BrowserRouter>
       </div>
