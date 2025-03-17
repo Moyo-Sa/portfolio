@@ -21,10 +21,6 @@ const About = () => {
           digital experiences.
         </p>
         &nbsp;
-        {/* Contact or CTA */}
-        <button className="px-5 py-2.5 bg-[#740b72] text-white text-sm font-medium rounded-lg transition-all duration-200 ease-in-out hover:bg-[#bb5ae8] focus:ring-4 focus:ring-[#4649ff]">
-          Contact Me
-        </button>
       </div>
     </section>
   );

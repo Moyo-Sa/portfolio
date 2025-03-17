@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import {
   About,
@@ -12,51 +12,73 @@ import {
 const ContentSection = ({ section }) => {
   switch (section) {
     case "about":
-      return (
-        <div>
-          <About />
-        </div>
-      );
+      return <About />;
     case "education":
-      return (
-        <div>
-          <Education />
-        </div>
-      );
+      return <Education />;
     case "experience":
-      return (
-        <div>
-          <Experience />
-        </div>
-      );
+      return <Experience />;
     case "projects":
-      return (
-        <div>
-          <Project />
-        </div>
-      );
+      return <Project />;
     case "contact":
-      return (
-        <div>
-          <ContactMe />
-        </div>
-      );
+      return <ContactMe />;
     default:
-      return (
-        <div>
-          <About />
-        </div>
-      );
+      return <About />;
   }
 };
 
 const Home = () => {
+  const [activeSection, setActiveSection] = useState("about");
+
+  // Handle topbar item click
+  const handleNavClick = (section, event) => {
+    event.preventDefault();
+    setActiveSection(section);
+  };
+
   return (
-    <div className="h-screen flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat py-10">
-      {/* Div for Links and stuff */}
-      <div></div>
-      {/* Quick Intro */}
-      <div></div>
+    <div className="min-h-screen flex flex-col bg-gray-100">
+      {/* Top Bar */}
+      <nav className="w-full bg-[#740b72] text-white py-4 shadow-md sticky top-0 z-50">
+        <div className="container mx-auto flex justify-center space-x-6">
+          <button
+            className="hover:text-gray-300 transition-all"
+            onClick={(e) => handleNavClick("about", e)}
+          >
+            About
+          </button>
+          <button
+            className="hover:text-gray-300 transition-all"
+            onClick={(e) => handleNavClick("education", e)}
+          >
+            Education
+          </button>
+          <button
+            className="hover:text-gray-300 transition-all"
+            onClick={(e) => handleNavClick("experience", e)}
+          >
+            Experience
+          </button>
+          <button
+            className="hover:text-gray-300 transition-all"
+            onClick={(e) => handleNavClick("projects", e)}
+          >
+            Projects
+          </button>
+          <button
+            className="hover:text-gray-300 transition-all"
+            onClick={(e) => handleNavClick("contact", e)}
+          >
+            Contact Me
+          </button>
+        </div>
+      </nav>
+
+      {/* Content Section */}
+      <div className="flex-grow flex items-center justify-center py-8 px-6">
+        <div className="w-full max-w-4xl mx-auto">
+          <ContentSection section={activeSection} />
+        </div>
+      </div>
     </div>
   );
 };
