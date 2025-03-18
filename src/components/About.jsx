@@ -6,7 +6,7 @@ const About = () => {
       <div className="bg-white/80 backdrop-blur-lg shadow-lg rounded-2xl p-6 flex flex-col items-center max-w-lg text-center">
         {/* Profile Image */}
         <img
-          src="/images/moyo.jpeg"
+          src="https://cu30wdznhf.ufs.sh/f/pTrwL9xA8LEPrWv9bZfJWcs4Yox68V7muPdZvAC1JLtEUfBh"
           alt="Moyo"
           className="w-32 h-32 rounded-full shadow-md mb-4 object-cover"
         />
