@@ -17,8 +17,10 @@ const Education = () => {
         </div>
 
         <p className="text-gray-600 mt-2 leading-relaxed">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <span className="font-bold">Degree:</span> Master of Science in
-          Computer Science
+          Computer
+          Science&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </p>
         <p className="text-gray-600 mt-2 leading-relaxed">
           <span className="font-bold">Institution:</span> Fordham University
