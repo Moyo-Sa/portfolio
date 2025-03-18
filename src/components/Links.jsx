@@ -23,7 +23,7 @@ const Links = () => {
               </button>
               <div className="w-full flex justify-center mt-4">
                 <img
-                  src="https://cu30wdznhf.ufs.sh/f/pTrwL9xA8LEPuJEAiyZzWgpq8tDmr0liQ2hFwEaU5oL41Pns"
+                  src="public/images/linkedin.png"
                   alt="linkedin img"
                   className="w-full max-w-lg h-96 border rounded-lg shadow-lg"
                 />
@@ -47,7 +47,7 @@ const Links = () => {
               </button>
               <div className="w-full flex justify-center mt-4">
                 <img
-                  src="https://cu30wdznhf.ufs.sh/f/pTrwL9xA8LEPobsGzyKQkpeilV58zMvuEOPq3C7B0AJKDUfW"
+                  src="public/images/github.png"
                   alt="github img"
                   className="w-full max-w-lg h-96 border rounded-lg shadow-lg"
                 />
