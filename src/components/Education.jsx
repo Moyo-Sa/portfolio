@@ -10,7 +10,7 @@ const Education = () => {
             Postgraduate Education
           </h1>
           <img
-            src="src/images/fordham.png"
+            src="/images/fordham.png"
             alt="Fordham"
             className="w-16 h-16 rounded-full shadow-md object-cover"
           />
@@ -43,7 +43,7 @@ const Education = () => {
             Undergraduate Education
           </h1>
           <img
-            src="src/images/cow.png"
+            src="/images/cow.png"
             alt="CoW"
             className="w-16 h-16 rounded-full shadow-md object-cover"
           />

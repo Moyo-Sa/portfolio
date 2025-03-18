@@ -6,7 +6,7 @@ const Thanks = () => {
       <div className="bg-white/80 backdrop-blur-lg shadow-lg rounded-2xl p-6 flex flex-col items-center max-w-lg text-center">
         {/* Profile Image */}
         <img
-          src="/src/images/moyo.jpeg"
+          src="/images/moyo.jpeg"
           alt="Moyo"
           className="w-32 h-32 rounded-full shadow-md mb-4 object-cover"
         />
