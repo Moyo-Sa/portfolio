@@ -21,15 +21,15 @@ const Experience = () => {
             <span className="font-bold">Duration:</span> August 2024 - present
           </p>
           <p className="text-gray-600 mt-2 leading-relaxed text-center">
-            <span className="font-bold">Description:</span> I work as a Teaching
-            Assistant (TA) in the Computer Science Department to courses such as
-            Computer Science I and Computer Organization. As the TA, I attend
-            classes and assist the professor with their lecture. Additionally, I
-            grade the students quizzes and assignments and host weekly office
-            hours to provide personalized support to students. I also support
-            students in debugging code, math problems, and solving technical
-            issues during practical lab sessions, office hours, and their visit
-            to the tutor room.
+            <span className="font-bold">Description: </span> I work as a
+            Teaching Assistant (TA) in the Computer Science Department to
+            courses such as Computer Science I and Computer Organization. As the
+            TA, I attend classes and assist the professor with their lecture.
+            Additionally, I grade the students quizzes and assignments and host
+            weekly office hours to provide personalized support to students. I
+            also support students in debugging code, math problems, and solving
+            technical issues during practical lab sessions, office hours, and
+            their visit to the tutor room.
           </p>
         </Container>
 
@@ -49,7 +49,7 @@ const Experience = () => {
             <span className="font-bold">Duration:</span> May 2024 - August 2024
           </p>
           <p className="text-gray-600 mt-2 leading-relaxed text-center">
-            <span className="font-bold">Description:</span>I developed and
+            <span className="font-bold">Description: </span>I developed and
             implemented phishing simulation websites to assess 23 clients’ staff
             vulnerability to phishing attacks. The phishing scenarios were
             tailored to the clients’ security needs, emphasizing user awareness

@@ -5,5 +5,7 @@ import Project from "./Project";
 import Education from "./Education";
 import Resume from "./Resume";
 import Links from "./Links";
+import Skills from "./Skills";
 
-export {About, ContactMe, Experience, Project, Education, Resume, Links};
+
+export {About, ContactMe, Experience, Project, Education, Resume, Links, Skills};

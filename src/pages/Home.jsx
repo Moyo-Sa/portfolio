@@ -7,6 +7,7 @@ import {
   Project,
   Education,
   Links,
+  Skills,
 } from "../components/index";
 
 // Component for each content section
@@ -24,6 +25,8 @@ const ContentSection = ({ section }) => {
       return <ContactMe />;
     case "links":
       return <Links />;
+    case "skills":
+      return <Skills />;
     default:
       return <About />;
   }
@@ -69,15 +72,21 @@ const Home = () => {
           </button>
           <button
             className="hover:text-gray-300 transition-all"
-            onClick={(e) => handleNavClick("contact", e)}
+            onClick={(e) => handleNavClick("skills", e)}
           >
-            Contact Me
+            Skills
           </button>
           <button
             className="hover:text-gray-300 transition-all"
             onClick={(e) => handleNavClick("links", e)}
           >
             Links
+          </button>
+          <button
+            className="hover:text-gray-300 transition-all"
+            onClick={(e) => handleNavClick("contact", e)}
+          >
+            Contact Me
           </button>
         </div>
       </nav>
