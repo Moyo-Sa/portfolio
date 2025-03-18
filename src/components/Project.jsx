@@ -99,8 +99,8 @@ const Project = () => {
 
           <p className="text-gray-600 mt-2 leading-relaxed text-center">
             <span className="font-bold">Description: </span>This is a calculator
-            app that was developed using a MERN stack (MongoDB, Express,
-            React.js, and Node.js).
+            app that was developed using React.js. This calculator performs
+            basic arithmetic operations.
           </p>
         </Container>
 
@@ -131,9 +131,9 @@ const Project = () => {
           </div>
 
           <p className="text-gray-600 mt-2 leading-relaxed text-center">
-            <span className="font-bold">Description: </span>This is a calculator
-            app that was developed using a MERN stack (MongoDB, Express,
-            React.js, and Node.js).
+            <span className="font-bold">Description: </span>This is a counter
+            app that was developed using React.js. This app increments and
+            decrements a counter.
           </p>
         </Container>
 
@@ -164,9 +164,10 @@ const Project = () => {
           </div>
 
           <p className="text-gray-600 mt-2 leading-relaxed text-center">
-            <span className="font-bold">Description: </span>This is a calculator
+            <span className="font-bold">Description: </span>This is To-do List
             app that was developed using a MERN stack (MongoDB, Express,
-            React.js, and Node.js).
+            React.js, and Node.js). It allows users to add, remove, and keep
+            track of tasks.
           </p>
         </Container>
 
@@ -197,9 +198,10 @@ const Project = () => {
           </div>
 
           <p className="text-gray-600 mt-2 leading-relaxed text-center">
-            <span className="font-bold">Description: </span>This is a calculator
-            app that was developed using a MERN stack (MongoDB, Express,
-            React.js, and Node.js).
+            <span className="font-bold">Description: </span>This is app that was
+            developed using a MERN stack (MongoDB, Express, React.js, and
+            Node.js). It is just a simple form that shows form validation
+            techniques.
           </p>
         </Container>
       </div>
