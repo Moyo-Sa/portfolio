@@ -30,7 +30,8 @@ const Education = () => {
           Undergraduate Education
         </h1>
         <p className="text-gray-600 mt-2 leading-relaxed">
-          <span className="font-bold">Degree:</span> Bachelor of Arts
+          <span className="font-bold">Degree:</span> Bachelor of Arts in
+          Biochemistry and Molecular Biology
         </p>
         <p className="text-gray-600 mt-2 leading-relaxed">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
