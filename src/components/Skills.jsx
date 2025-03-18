@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Container from "./container";
+import Container from "./Coontainer";
 
 const Skills = () => {
   // Scroll to section with improved implementation
