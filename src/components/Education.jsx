@@ -10,7 +10,7 @@ const Education = () => {
             Postgraduate Education
           </h1>
           <img
-            src="public/images/fordham.png"
+            src="https://cu30wdznhf.ufs.sh/f/pTrwL9xA8LEPusmQppJZzWgpq8tDmr0liQ2hFwEaU5oL41Pn"
             alt="Fordham"
             className="w-16 h-16 rounded-full shadow-md object-cover"
           />
@@ -43,7 +43,7 @@ const Education = () => {
             Undergraduate Education
           </h1>
           <img
-            src="public/images/cow.png"
+            src="https://cu30wdznhf.ufs.sh/f/pTrwL9xA8LEPZuY9hKO7AwZOLkT3HC4GNnM5892gEhvQSWlj"
             alt="CoW"
             className="w-16 h-16 rounded-full shadow-md object-cover"
           />
