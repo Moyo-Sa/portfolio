@@ -8,6 +8,7 @@ import {
   Education,
   Links,
   Skills,
+  Research,
 } from "../components/index";
 
 // Component for each content section
@@ -21,6 +22,8 @@ const ContentSection = ({ section }) => {
       return <Experience />;
     case "projects":
       return <Project />;
+    case "research":
+      return <Research />;
     case "contact":
       return <ContactMe />;
     case "links":
@@ -42,6 +45,7 @@ const Home = () => {
     { id: "education", label: "Education" },
     { id: "experience", label: "Experiences" },
     { id: "projects", label: "Projects" },
+    { id: "research", label: "Research" },
     { id: "skills", label: "Skills" },
     { id: "links", label: "Links" },
     { id: "contact", label: "Contact Me" },

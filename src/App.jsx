@@ -9,6 +9,7 @@ import {
   Project,
   Education,
   Resume,
+  Research,
 } from "./components";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route path="/education" element={<Education />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/thank-you" element={<Thanks />} />
+            <Route path="/research" element={<Research />} />
           </Routes>
         </BrowserRouter>
       </div>
