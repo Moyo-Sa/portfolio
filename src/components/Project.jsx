@@ -8,6 +8,39 @@ const Project = () => {
         {/* Dalle */}
         <Container>
           <h1 className="text-2xl font-bold text-gray-800 text-center">
+            Argus
+          </h1>
+
+          <p className="text-gray-600 mt-2 leading-relaxed text-center">
+            <span className="font-bold">Link:</span> Click{" "}
+            <a
+              href="https://argus-frontend-sand.vercel.app"
+              className="text-blue-500 underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
+            </a>
+          </p>
+
+          {/* Website Preview */}
+          <div className="w-full flex justify-center mt-4">
+            <iframe
+              src="https://argus-frontend-sand.vercel.app"
+              className="w-full max-w-lg h-96 border rounded-lg shadow-lg"
+            />
+          </div>
+
+          <p className="text-gray-600 mt-2 leading-relaxed text-center">
+            <span className="font-bold">Description: </span>This application
+            enables users to extract information about a person through web
+            scraping and OCR technology, with OpenAI providing a summarized
+            interpretation of the retrieved content.
+          </p>
+        </Container>
+        {/* Dalle */}
+        <Container>
+          <h1 className="text-2xl font-bold text-gray-800 text-center">
             Dall-E
           </h1>
 
