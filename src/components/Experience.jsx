@@ -33,7 +33,34 @@ const Experience = () => {
           </p>
         </Container>
 
-        {/* CS Intern position */}
+        {/* Mode Intern position */}
+        <Container>
+          <h1 className="text-2xl font-bold text-gray-800 text-center">
+            Product Manager/Software Engineer Intern
+          </h1>
+          <p className="text-gray-600 mt-2 leading-relaxed text-center">
+            <span className="font-bold">Institution:</span> Mode (Stealth
+            Fashion Technology Startup)
+          </p>
+          <p className="text-gray-600 mt-2 leading-relaxed text-center">
+            <span className="font-bold">Location:</span> Remote
+          </p>
+          <p className="text-gray-600 mt-2 leading-relaxed text-center">
+            <span className="font-bold">Duration:</span> June 2025 - August 2025
+          </p>
+          <p className="text-gray-600 mt-2 leading-relaxed text-center">
+            <span className="font-bold">Description: </span> I designed and
+            refined features for customer-facing web applications, incorporating
+            AI-powered tools to make the shopping experience more engaging and
+            personalized. I developed and optimized interactive modules using
+            React and Node.js, which improved responsiveness and significantly
+            reduced load times. In addition, I led sprint planning and managed
+            backlog prioritization, ensuring cross-functional teams stayed
+            aligned on deliverables and timelines.
+          </p>
+        </Container>
+
+        {/* Cloud Intern position */}
         <Container>
           <h1 className="text-2xl font-bold text-gray-800 text-center">
             Software Engineer Intern
