@@ -36,7 +36,7 @@ const Experience = () => {
         {/* Mode Intern position */}
         <Container>
           <h1 className="text-2xl font-bold text-gray-800 text-center">
-            Product Manager/Software Engineer Intern
+            Technical Product Manager Intern
           </h1>
           <p className="text-gray-600 mt-2 leading-relaxed text-center">
             <span className="font-bold">Institution:</span> Mode (Stealth
