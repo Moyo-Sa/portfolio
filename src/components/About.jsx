@@ -14,7 +14,7 @@ const About = () => {
         <h1 className="text-3xl font-bold text-gray-800">Hi, I'm Moyo!</h1>
         <p className="text-gray-600 mt-2 leading-relaxed">
           I am a detail-oriented MSc in Computer Science student at Fordham
-          University with a strong background in full-stack development, data
+          University with a strong background in product management, full-stack development, data
           analysis, and user experience research. I specialize in building
           scalable web applications, including e-commerce platforms and AI-based
           tools. I also leverage data-driven decision-making to create impactful
